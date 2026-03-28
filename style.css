@@ -207,8 +207,8 @@ a:hover{
 
 .card:hover,
 .skill-card:hover{
-  transform: translateY(-5px);
-  box-shadow: 0 18px 35px rgba(244,114,182,0.16);
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(244,114,182,0.22);
 }
 
 .profile-circle{
