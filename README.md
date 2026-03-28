@@ -2,7 +2,7 @@
 Trabajo practico n° 1 de Programacion III
 
 ##  Ver sitio online
-👉 
+👉 https://florencia-varelasc.github.io/CURRICULUM-VITAE
 
 ## Tecnologías utilizadas
 - HTML5
