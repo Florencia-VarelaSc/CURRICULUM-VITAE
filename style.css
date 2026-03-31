@@ -1,17 +1,17 @@
-@font-face {
+@font-face{
   font-family: "InterLocal";
   src: url("./assets/fonts/Inter_18pt-Regular.ttf") format("truetype");
   font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
-@font-face {
+@font-face{
   font-family: "InterLocal";
   src: url("./assets/fonts/Inter_18pt-Bold.ttf") format("truetype");
   font-weight: 700;
-}
-
-body {
-  font-family: "InterLocal", sans-serif;
+  font-style: normal;
+  font-display: swap;
 }
 
 :root{
@@ -126,6 +126,7 @@ a:hover{
   border-radius: 14px;
   cursor: pointer;
   transition: 0.2s ease;
+  font-family: "InterLocal", Arial, Helvetica, sans-serif;
 }
 
 .theme-btn:hover{
@@ -282,6 +283,7 @@ a:hover{
   line-height: 1.1;
 }
 
+/* GRID GENERAL */
 .grid{
   display: grid;
   gap: 20px;
