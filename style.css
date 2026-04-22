@@ -133,13 +133,13 @@ a:hover{
   font-weight: 600;
 }
 
-.hero-text h1{
+.hero-title{
   font-size: 3rem;
   line-height: 1.08;
   margin-bottom: 14px;
 }
 
-.hero-text h2{
+.hero-subtitle{
   font-size: 1.25rem;
   font-weight: 700;
   color: var(--text);
@@ -221,7 +221,7 @@ a:hover{
   overflow: hidden;
 }
 
-.profile-circle img{
+.profile-img{
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -248,7 +248,7 @@ a:hover{
   margin-bottom: 22px;
 }
 
-.section-title h3{
+.section-heading{
   font-size: 2.1rem;
   line-height: 1.1;
 }
@@ -267,7 +267,7 @@ a:hover{
   grid-column: 1 / -1;
 }
 
-.card h4{
+.card-title{
   font-size: 1.25rem;
   margin-bottom: 10px;
 }
@@ -376,7 +376,7 @@ a:hover{
   transition: 0.25s ease;
 }
 
-.skill-card img{
+.skill-icon{
   width: 58px;
   height: 58px;
   object-fit: contain;
@@ -384,7 +384,7 @@ a:hover{
   margin: 0 auto 14px;
 }
 
-.skill-card h4{
+.skill-title{
   font-size: 1.15rem;
   font-weight: 700;
   margin: 0;
@@ -414,7 +414,7 @@ a:hover{
     grid-column: auto;
   }
 
-  .hero-text h1{
+  .hero-title{
     font-size: 2.35rem;
   }
 
@@ -441,15 +441,15 @@ a:hover{
     padding-right: 5%;
   }
 
-  .hero-text h1{
+  .hero-title{
     font-size: 2rem;
   }
 
-  .hero-text h2{
+  .hero-subtitle{
     font-size: 1.05rem;
   }
 
-  .section-title h3{
+  .section-heading{
     font-size: 1.7rem;
   }
 
