@@ -547,3 +547,29 @@ a:hover{
 .nav .btn.secondary{
   margin-left: auto;
 }
+/* FIX ISSUE 28 */
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
+.hero-content {
+  gap: 1rem;
+}
+
+@media (max-width: 48rem) { 
+  .hero {
+    min-height: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
